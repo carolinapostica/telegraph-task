@@ -1,0 +1,10 @@
+{{#if error}}
+    <pre>{{error}}</pre>
+{{else}}
+    <ul>
+        {{#each comments}}
+           {{> comment this}}
+        {{/each}}
+    </ul>
+{{/if}}
+

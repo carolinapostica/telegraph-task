@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+}
+
+:root {
+    --main-bg-color: brown;
+    --serif-font: "Austin News Deck Web Medium", "Times New Roman", serif;
+    --sans-serif-font: Arial ,sans-serif;
+    --primary: #3e3e3e;
+    --secondary: #4c4c4c;
+    --white: #fff;
+    --dark: #111;
+    --light: #e4e4e4;
+    --border-style: 1px solid var(--light);
+}
+
